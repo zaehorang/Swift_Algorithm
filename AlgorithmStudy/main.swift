@@ -7,6 +7,4 @@
 
 import Foundation
 
-_2447()
-
-
+_2447_1()

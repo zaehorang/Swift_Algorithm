@@ -46,3 +46,25 @@ func _2447() {
     
 }
 
+
+//MARK: - solve 2
+// 으렵다 으려워 🥲
+// 참고: https://dev-mandos.tistory.com/154
+func _2447_1() {
+    let n = Int(readLine()!)!
+    
+    func recursion_2447_1(n: Int, pattern: [String]) {
+        if n == 1 {
+            pattern.forEach { print($0) }
+            return
+        }
+        
+        let first = pattern.map { $0 + $0 + $0 }
+        let empty = pattern.map { $0 + String(repeating: " ", count: $0.count) + $0 }
+        
+        recursion_2447_1(n: n / 3, pattern: first + empty + first)
+    }
+    
+    recursion_2447_1(n: n, pattern: ["*"])
+}
+

@@ -29,6 +29,7 @@
 		26EF7C3A2C0F33AE0010EBAC /* 17478.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EF7C392C0F33AE0010EBAC /* 17478.swift */; };
 		26EF7C3C2C0F3A2F0010EBAC /* 1780.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EF7C3B2C0F3A2F0010EBAC /* 1780.swift */; };
 		26EF7C3E2C12F2190010EBAC /* 2630.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EF7C3D2C12F2190010EBAC /* 2630.swift */; };
+		26F4B52B2C32481C0077D6AA /* 15650.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F4B52A2C32481C0077D6AA /* 15650.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -84,6 +85,7 @@
 		26EF7C392C0F33AE0010EBAC /* 17478.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 17478.swift; sourceTree = "<group>"; };
 		26EF7C3B2C0F3A2F0010EBAC /* 1780.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1780.swift; sourceTree = "<group>"; };
 		26EF7C3D2C12F2190010EBAC /* 2630.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2630.swift; sourceTree = "<group>"; };
+		26F4B52A2C32481C0077D6AA /* 15650.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15650.swift; sourceTree = "<group>"; };
 		26FA69172BCCC76A00FD33CD /* give.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = give.swift; sourceTree = "<group>"; };
 		26FA69272BCE34EE00FD33CD /* 10799.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10799.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				2607451C2C29B2BC004B626E /* 15649.swift */,
+				26F4B52A2C32481C0077D6AA /* 15650.swift */,
 			);
 			path = Backtracking;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				26EF7C3A2C0F33AE0010EBAC /* 17478.swift in Sources */,
 				26EF7C322C06D3150010EBAC /* 1629.swift in Sources */,
 				261263BA2BE8B0D200418908 /* 5427.swift in Sources */,
+				26F4B52B2C32481C0077D6AA /* 15650.swift in Sources */,
 				261263D82BEB34D400418908 /* 9466.swift in Sources */,
 				26E44A662BDBC26C006884C6 /* main.swift in Sources */,
 				261263BC2BE9C67D00418908 /* x2206x.swift in Sources */,

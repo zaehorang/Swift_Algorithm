@@ -31,6 +31,7 @@
 		26EF7C3E2C12F2190010EBAC /* 2630.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EF7C3D2C12F2190010EBAC /* 2630.swift */; };
 		26F4B52B2C32481C0077D6AA /* 15650.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F4B52A2C32481C0077D6AA /* 15650.swift */; };
 		26F4B52D2C32559A0077D6AA /* 15651.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F4B52C2C32559A0077D6AA /* 15651.swift */; };
+		26F4B52F2C341D540077D6AA /* 1182.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F4B52E2C341D540077D6AA /* 1182.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -88,6 +89,7 @@
 		26EF7C3D2C12F2190010EBAC /* 2630.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2630.swift; sourceTree = "<group>"; };
 		26F4B52A2C32481C0077D6AA /* 15650.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15650.swift; sourceTree = "<group>"; };
 		26F4B52C2C32559A0077D6AA /* 15651.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15651.swift; sourceTree = "<group>"; };
+		26F4B52E2C341D540077D6AA /* 1182.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1182.swift; sourceTree = "<group>"; };
 		26FA69172BCCC76A00FD33CD /* give.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = give.swift; sourceTree = "<group>"; };
 		26FA69272BCE34EE00FD33CD /* 10799.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10799.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,6 +111,7 @@
 				2607451C2C29B2BC004B626E /* 15649.swift */,
 				26F4B52A2C32481C0077D6AA /* 15650.swift */,
 				26F4B52C2C32559A0077D6AA /* 15651.swift */,
+				26F4B52E2C341D540077D6AA /* 1182.swift */,
 			);
 			path = Backtracking;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				26E44A702BE2AC1E006884C6 /* 10026.swift in Sources */,
 				26E44A682BDBC2B2006884C6 /* 4179.swift in Sources */,
 				26E44A6E2BE298A4006884C6 /* 1012.swift in Sources */,
+				26F4B52F2C341D540077D6AA /* 1182.swift in Sources */,
 				26E44A6A2BDF60D6006884C6 /* 1697.swift in Sources */,
 				26E44A6C2BE24A9A006884C6 /* Queue.swift in Sources */,
 				264E309F2C15714A00A6CB81 /* 1992.swift in Sources */,

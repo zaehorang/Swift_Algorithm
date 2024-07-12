@@ -34,3 +34,42 @@ func _1182() {
         print(ans)
     }
 }
+
+
+func _1182_ud() {
+    let ns = readLine()!.split(separator: " ").map { Int($0)! }
+    let (n, s) = (ns[0], ns[1])
+    
+    let nums = readLine()!.split(separator: " ").map { Int($0)! }
+    
+    var ans = 0
+    
+    for i in 1..<n + 1 {
+        var arr: [Int] = .init(repeating: 0, count: i)
+        var isUsed: [Bool] = .init(repeating: false, count: n + 1)
+        
+        recursion(k: 0, cnt: i, tot: s, start: 1)
+  
+        func recursion(k: Int, cnt: Int, tot: Int, start: Int) {
+            if k == cnt {
+                if cnt == tot {
+                    ans += 1
+                }
+                return
+            }
+            
+            for a in start..<n + 1 {
+                if !isUsed[a] {
+                    arr[k] = a
+                    isUsed[a] = true
+//                    recursion(k: k + 1, start: i + 1)
+                    recursion(k: k + 1, cnt: cnt + a, tot: tot, start: a + 1)
+                    isUsed[a] = false
+                }
+            }
+
+        }
+    }
+    print(ans)
+
+}

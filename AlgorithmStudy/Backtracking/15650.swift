@@ -27,10 +27,11 @@ func _15650() {
         }
         
         // 해당 분기가 프린트 분기 아래에 있어야 한다.
-        if start > n {
-            return
-        }
-        
+//        if start > n {
+//            return
+//        }
+        // ❗️❗️❗️❗️start..<n + 1
+        print("\(start) & \(n)")
         for i in start...n {
             if !isUsed[i] {
                 arr[k] = i

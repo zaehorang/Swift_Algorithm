@@ -140,7 +140,6 @@ func _other() {
         
         let newDir = dir % 4  // ❗️아래에서 방향 잡을 때 dir이 4를 넘을 수 있으니까
         var (newX, newY) = (x, y)  // ❗️계속 증가해야 하니까 반복문 외부에 선언
-        print(dir)
         
         while true {
             newX += dx[newDir]

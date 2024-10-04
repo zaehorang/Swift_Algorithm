@@ -21,3 +21,11 @@ func solution(_ array:[Int], _ commands:[[Int]]) -> [Int] {
     }
     return ans
 }
+
+func solution2(_ array:[Int], _ commands:[[Int]]) -> [Int] {
+    return commands.map {
+        array[($0[0]-1)...($0[1]-1)].sorted()[($0[2]-1)]
+        // ⭐️ array의 인덱스 i부터 j까지의 요소 배열: array[i...j]
+    }
+}
+

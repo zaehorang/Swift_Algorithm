@@ -6,7 +6,6 @@
 //  Merge Sort
 
 func sort() {
-    
     var arr = [1, 4, 3, 2, 6, 7]
     let n = arr.count
     

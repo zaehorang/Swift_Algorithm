@@ -6,11 +6,11 @@
 //
 
 
-func solution(_ tickets:[[String]]) -> [String] {
+func solution_43164(_ tickets:[[String]]) -> [String] {
     let ticketsCnt = tickets.count
     var isUsed = [Bool](repeating: false, count: ticketsCnt)
     
-    var ans = ["ICN"]
+    var ans = [String](repeating: "", count: ticketsCnt + 1)
     var findAns = false
     
     func findFirstTicketIdx( _ city: String) -> [Int] {
@@ -40,12 +40,12 @@ func solution(_ tickets:[[String]]) -> [String] {
                 ans[n + 1] = destination
                 recursion(n + 1, findFirstTicketIdx(destination))
                 isUsed[i] = false
-                ans.removeLast()
             }
         }
     }
     
     // 인천 티켓 찾기
     recursion(0,findFirstTicketIdx("ICN"))
+    ans[0] = "ICN"
     return ans
 }

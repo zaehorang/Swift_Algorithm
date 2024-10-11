@@ -105,7 +105,7 @@ func solution1_258712(_ friends:[String], _ gifts:[String]) -> Int {
             
             if table[i][j] > table[j][i] {
                 count += 1
-            } 
+            }
             else if table[i][j] == table[j][i] && table[i][friends.count] > table[j][friends.count] {
                 count += 1
             }

@@ -64,6 +64,8 @@ func solution_258712(_ friends:[String], _ gifts:[String]) -> Int {
             }
         }
     }
+    print(dict)
+    print(ans)
     return ans.values.max()!
 }
 

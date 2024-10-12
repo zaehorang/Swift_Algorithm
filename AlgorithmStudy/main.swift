@@ -5,4 +5,4 @@
 //  Created by zaehorang on 4/26/24.
 //
 
-print(solution_42578([["yellow_hat", "headgear"], ["blue_sunglasses", "eyewear"], ["green_turban", "headgear"]]))
+print(solution_42579(["classic", "pop", "classic", "classic", "pop"], [500, 600, 150, 800, 2500]))

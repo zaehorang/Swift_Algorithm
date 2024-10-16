@@ -5,4 +5,6 @@
 //  Created by zaehorang on 4/26/24.
 //
 
-print(solution_42579(["classic", "pop", "classic", "classic", "pop"], [500, 600, 150, 800, 2500]))
+print(solution_42586([99, 96, 94], [1, 3, 4]))
+
+// [1, 2]

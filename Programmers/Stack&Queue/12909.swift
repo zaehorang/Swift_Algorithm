@@ -13,7 +13,7 @@ func solution_12909(_ s:String) -> Bool {
         if char == "(" {
             stack.append(char)
         } else {
-            guard let a = stack.popLast() else { return false }
+            guard stack.popLast() != nil else { return false }
         }
     }
     if stack.isEmpty {

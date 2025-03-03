@@ -5,4 +5,4 @@
 //  Created by zaehorang on 4/26/24.
 //
 
-print(solution1_42587([2, 1, 3, 2], 2))
+print(reSolution_42586([93, 30, 55], [1, 30, 5]))

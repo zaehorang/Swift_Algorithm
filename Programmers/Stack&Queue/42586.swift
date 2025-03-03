@@ -54,17 +54,14 @@ func solution1_42586(_ progresses:[Int], _ speeds:[Int]) -> [Int] {
         
         if now <= fistData {
             count += 1
-            if i == (progresses.count - 1) {
-                ans.append(count)
-            }
         } else {
             ans.append(count)
             count = 1
             fistData = now
-            if i == (progresses.count - 1) {
-                ans.append(count)
-            }
         }
+    }
+    if count != 0 {
+        ans.append(count)
     }
     return ans
 }

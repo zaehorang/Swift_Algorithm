@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2606F3082D75CACB004E519C /* re_42586.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606F3072D75CACB004E519C /* re_42586.swift */; };
 		2606F30A2D768818004E519C /* re_12909.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606F3092D768818004E519C /* re_12909.swift */; };
+		2606F3172D797F5D004E519C /* re_42587.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606F3162D797F5D004E519C /* re_42587.swift */; };
 		2607451D2C29B2BC004B626E /* 15649.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2607451C2C29B2BC004B626E /* 15649.swift */; };
 		261263862BE6258300418908 /* 1931.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261263852BE6258300418908 /* 1931.swift */; };
 		261263892BE77C8B00418908 /* 7569.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261263882BE77C8B00418908 /* 7569.swift */; };
@@ -75,6 +76,7 @@
 /* Begin PBXFileReference section */
 		2606F3072D75CACB004E519C /* re_42586.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = re_42586.swift; sourceTree = "<group>"; };
 		2606F3092D768818004E519C /* re_12909.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = re_12909.swift; sourceTree = "<group>"; };
+		2606F3162D797F5D004E519C /* re_42587.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = re_42587.swift; sourceTree = "<group>"; };
 		2607451C2C29B2BC004B626E /* 15649.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15649.swift; sourceTree = "<group>"; };
 		260BE2912BBBB85E0026DABE /* AlgorithmStudy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmStudy; sourceTree = BUILT_PRODUCTS_DIR; };
 		260BE2942BBBB85E0026DABE /* 2577.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2577.swift; sourceTree = "<group>"; };
@@ -301,6 +303,7 @@
 				26D852EA2CBFCBB80016239A /* 42587.swift */,
 				26D852EC2CC7C9E60016239A /* 42583.swift */,
 				2606F3092D768818004E519C /* re_12909.swift */,
+				2606F3162D797F5D004E519C /* re_42587.swift */,
 			);
 			path = "Stack&Queue";
 			sourceTree = "<group>";
@@ -474,6 +477,7 @@
 				26EF7C3A2C0F33AE0010EBAC /* 17478.swift in Sources */,
 				26EF7C322C06D3150010EBAC /* 1629.swift in Sources */,
 				2653E2A42CB13B3F001DC51A /* 43163.swift in Sources */,
+				2606F3172D797F5D004E519C /* re_42587.swift in Sources */,
 				2653E2A02CB0061F001DC51A /* 42748.swift in Sources */,
 				2653E2E92CB8D1A9001DC51A /* 42578.swift in Sources */,
 				261263BA2BE8B0D200418908 /* 5427.swift in Sources */,

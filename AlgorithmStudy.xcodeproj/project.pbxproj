@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -147,6 +147,10 @@
 		26FA69172BCCC76A00FD33CD /* give.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = give.swift; sourceTree = "<group>"; };
 		26FA69272BCE34EE00FD33CD /* 10799.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10799.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		269420D82D85560000CB0837 /* ETC */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ETC; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		260BE28E2BBBB85E0026DABE /* Frameworks */ = {
@@ -329,6 +333,7 @@
 		26890B412CA80AD7008DFF49 /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
+				269420D82D85560000CB0837 /* ETC */,
 				2653E30A2CBBF599001DC51A /* Stack&Queue */,
 				2653E2E72CB8D198001DC51A /* Hash */,
 				2653E2A52CB25644001DC51A /* BruteForce */,
@@ -411,6 +416,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				269420D82D85560000CB0837 /* ETC */,
 			);
 			name = AlgorithmStudy;
 			productName = AlgorithmStudy;

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -35,6 +35,8 @@
 		2653E2F72CBA8BCE001DC51A /* 42579.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2653E2F62CBA8BCE001DC51A /* 42579.swift */; };
 		2653E30C2CBBF5A8001DC51A /* 12909.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2653E30B2CBBF5A8001DC51A /* 12909.swift */; };
 		26890B432CA80AEA008DFF49 /* 43164.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26890B422CA80AEA008DFF49 /* 43164.swift */; };
+		269420DF2D86973E00CB0837 /* 161988.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269420DD2D86973E00CB0837 /* 161988.swift */; };
+		269420E12D86974600CB0837 /* 120923.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269420E02D86974600CB0837 /* 120923.swift */; };
 		26A0032D2C194C7B002F8540 /* 2448.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A0032C2C194C7B002F8540 /* 2448.swift */; };
 		26C965AF2C5120E8000257EA /* 11931.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C965AE2C5120E8000257EA /* 11931.swift */; };
 		26C965B12C512C4E000257EA /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C965B02C512C4E000257EA /* MergeSort.swift */; };
@@ -120,6 +122,8 @@
 		2689EE432BC4F35D00CAA6C7 /* 18258.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 18258.swift; sourceTree = "<group>"; };
 		2689EE452BC4FF6900CAA6C7 /* 2164.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2164.swift; sourceTree = "<group>"; };
 		268C5C182BC8E4350009F87E /* 1021.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1021.swift; sourceTree = "<group>"; };
+		269420DD2D86973E00CB0837 /* 161988.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 161988.swift; sourceTree = "<group>"; };
+		269420E02D86974600CB0837 /* 120923.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 120923.swift; sourceTree = "<group>"; };
 		26A0032C2C194C7B002F8540 /* 2448.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2448.swift; sourceTree = "<group>"; };
 		26C965AE2C5120E8000257EA /* 11931.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11931.swift; sourceTree = "<group>"; };
 		26C965B02C512C4E000257EA /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
@@ -147,10 +151,6 @@
 		26FA69172BCCC76A00FD33CD /* give.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = give.swift; sourceTree = "<group>"; };
 		26FA69272BCE34EE00FD33CD /* 10799.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10799.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		269420D82D85560000CB0837 /* ETC */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ETC; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		260BE28E2BBBB85E0026DABE /* Frameworks */ = {
@@ -333,7 +333,7 @@
 		26890B412CA80AD7008DFF49 /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
-				269420D82D85560000CB0837 /* ETC */,
+				269420DE2D86973E00CB0837 /* ETC */,
 				2653E30A2CBBF599001DC51A /* Stack&Queue */,
 				2653E2E72CB8D198001DC51A /* Hash */,
 				2653E2A52CB25644001DC51A /* BruteForce */,
@@ -386,6 +386,15 @@
 			path = Deque;
 			sourceTree = "<group>";
 		};
+		269420DE2D86973E00CB0837 /* ETC */ = {
+			isa = PBXGroup;
+			children = (
+				269420DD2D86973E00CB0837 /* 161988.swift */,
+				269420E02D86974600CB0837 /* 120923.swift */,
+			);
+			path = ETC;
+			sourceTree = "<group>";
+		};
 		26EF7C302C06D2FF0010EBAC /* Recursion */ = {
 			isa = PBXGroup;
 			children = (
@@ -416,9 +425,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				269420D82D85560000CB0837 /* ETC */,
 			);
 			name = AlgorithmStudy;
 			productName = AlgorithmStudy;
@@ -469,6 +475,7 @@
 				2653E2BC2CB659F5001DC51A /* 258712.swift in Sources */,
 				2646E0F42C4A09C600B603ED /* 11728.swift in Sources */,
 				26F4B52D2C32559A0077D6AA /* 15651.swift in Sources */,
+				269420DF2D86973E00CB0837 /* 161988.swift in Sources */,
 				26A0032D2C194C7B002F8540 /* 2448.swift in Sources */,
 				26EF7C3C2C0F3A2F0010EBAC /* 1780.swift in Sources */,
 				261263892BE77C8B00418908 /* 7569.swift in Sources */,
@@ -495,6 +502,7 @@
 				261263BC2BE9C67D00418908 /* x2206x.swift in Sources */,
 				26D852E92CBE951C0016239A /* 42586.swift in Sources */,
 				2612638B2BE7A2F900418908 /* 7562.swift in Sources */,
+				269420E12D86974600CB0837 /* 120923.swift in Sources */,
 				26EF7C382C0EC8B10010EBAC /* 1074.swift in Sources */,
 				2653E30C2CBBF5A8001DC51A /* 12909.swift in Sources */,
 				261263862BE6258300418908 /* 1931.swift in Sources */,

@@ -12,7 +12,7 @@ func solution_42578(_ clothes:[[String]]) -> Int {
     var dic = [String: [String]]()
     
     for cloth in clothes {
-        let (val, key) = (cloth[0], cloth[1])
+        let (_, key) = (cloth[0], cloth[1])
         dic[key] = []
     }
     
@@ -38,7 +38,7 @@ func solution1_42578(_ clothes:[[String]]) -> Int {
     for cloth in clothes {
         let (val, key) = (cloth[0], cloth[1])
         
-        if let existClothes = dic[key] {
+        if dic[key] != nil {
             dic[key]?.append(val)
         } else {
             dic[key] = [val]

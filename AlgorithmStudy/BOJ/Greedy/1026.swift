@@ -9,12 +9,12 @@
 import Foundation
 
 func _1026() {
-    let n = Int(readLine()!)!
+    _ = Int(readLine()!)!
     
-    var a = readLine()!.split(separator: " ")
+    let a = readLine()!.split(separator: " ")
         .map { Int($0)! }
         .sorted(by: >)
-    var b = readLine()!.split(separator: " ")
+    let b = readLine()!.split(separator: " ")
         .map { Int($0)! }
         .sorted(by: <)
     

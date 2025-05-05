@@ -7,7 +7,7 @@
 //  별 찍기 - 11
 
 func _2448() {
-    let n = Int(readLine()!)!
+    _ = Int(readLine()!)!
     
     func recursion_2448(n: Int, pattern: [String]) {
         if n == 1 {

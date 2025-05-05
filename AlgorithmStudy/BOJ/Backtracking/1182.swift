@@ -40,7 +40,7 @@ func _1182_ud() {
     let ns = readLine()!.split(separator: " ").map { Int($0)! }
     let (n, s) = (ns[0], ns[1])
     
-    let nums = readLine()!.split(separator: " ").map { Int($0)! }
+    _ = readLine()!.split(separator: " ").map { Int($0)! }
     
     var ans = 0
     

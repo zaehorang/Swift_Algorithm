@@ -13,7 +13,7 @@ func _1477() {
         .split(separator: " ")
         .map { Int($0)! }
     
-    let (n, m, l) = (nml[0], nml[1], nml[2])
+    let (_, m, l) = (nml[0], nml[1], nml[2])
     
     var arr = [l]
     

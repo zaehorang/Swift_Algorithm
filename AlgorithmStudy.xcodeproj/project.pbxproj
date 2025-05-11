@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2601AE002DC888E000A4A7BE /* 10807.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2601ADFF2DC888E000A4A7BE /* 10807.swift */; };
+		2601AE022DD0854D00A4A7BE /* 18870.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2601AE012DD0854D00A4A7BE /* 18870.swift */; };
 		2606F3082D75CACB004E519C /* re_42586.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606F3072D75CACB004E519C /* re_42586.swift */; };
 		2606F30A2D768818004E519C /* re_12909.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606F3092D768818004E519C /* re_12909.swift */; };
 		2606F3172D797F5D004E519C /* re_42587.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606F3162D797F5D004E519C /* re_42587.swift */; };
@@ -95,6 +96,7 @@
 
 /* Begin PBXFileReference section */
 		2601ADFF2DC888E000A4A7BE /* 10807.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10807.swift; sourceTree = "<group>"; };
+		2601AE012DD0854D00A4A7BE /* 18870.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 18870.swift; sourceTree = "<group>"; };
 		2606F3072D75CACB004E519C /* re_42586.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = re_42586.swift; sourceTree = "<group>"; };
 		2606F3092D768818004E519C /* re_12909.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = re_12909.swift; sourceTree = "<group>"; };
 		2606F3162D797F5D004E519C /* re_42587.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = re_42587.swift; sourceTree = "<group>"; };
@@ -360,6 +362,7 @@
 				2657AE0E2DA2BEE000B43D4E /* 1920.swift */,
 				2657AE102DA3857300B43D4E /* 10816.swift */,
 				2657AE122DA395E300B43D4E /* BoundIndexFunction.swift */,
+				2601AE012DD0854D00A4A7BE /* 18870.swift */,
 			);
 			path = BinarySearch;
 			sourceTree = "<group>";
@@ -545,6 +548,7 @@
 				26C965B12C512C4E000257EA /* MergeSort.swift in Sources */,
 				2653E2BC2CB659F5001DC51A /* 258712.swift in Sources */,
 				2646E0F42C4A09C600B603ED /* 11728.swift in Sources */,
+				2601AE022DD0854D00A4A7BE /* 18870.swift in Sources */,
 				269420F52D8BBA8300CB0837 /* 1149.swift in Sources */,
 				267F6B4F2D9903AD0089BD6D /* re_1931.swift in Sources */,
 				26F4B52D2C32559A0077D6AA /* 15651.swift in Sources */,

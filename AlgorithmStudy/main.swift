@@ -6,5 +6,4 @@
 //
 
 
-print(_2230_BS())
-
+_1929().forEach { print($0) }

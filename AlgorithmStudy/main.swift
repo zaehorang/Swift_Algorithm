@@ -6,4 +6,5 @@
 //
 
 
-_1929().forEach { print($0) }
+print(lcm(a: 20, b: 12))
+

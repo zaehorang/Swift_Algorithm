@@ -40,3 +40,30 @@ func _11729() {
     print((1<<n) - 1)
     recursion_11729(a: 1, b: 3, n: n)
 }
+
+
+// n개의 탑을 a에서 b로 옮기기
+func re_recursion_11729(n: Int, from a: Int, to b: Int) {
+    // base condition
+    if n == 1 {
+        print("\(a) \(b)")
+        return
+    }
+    
+    let remainder = 6 - a - b
+    
+    re_recursion_11729(n: n - 1, from: a, to: remainder)
+    
+    // n번째 탑 b로 옮기기
+    print("\(a) \(b)")
+    
+    re_recursion_11729(n: n - 1, from: remainder, to: b)
+}
+
+func re_11729() {
+    let n = Int(readLine()!)!
+    
+    // 2^n - 1
+    print((1<<n) - 1)
+    re_recursion_11729(n: n, from: 1, to: 3)
+}

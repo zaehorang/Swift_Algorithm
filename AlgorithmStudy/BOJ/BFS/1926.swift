@@ -46,7 +46,7 @@ for x in 0..<height {
         
         // 처음 지정된 칸 주위에 색칠되어 있는 칸들은 모두 탐색
         while !q.isEmpty {
-            let pop = q.removeFirst())
+            let pop = q.removeFirst()
 
             // pop된 값 주위 요소 확인 과정
             for k in 0..<4 {
@@ -57,7 +57,7 @@ for x in 0..<height {
                 if i < 0 || i >= height || j < 0 || j >= width { // 범위를 벗어나면
                     continue
                 }
-                if arr[i][j] == 0 || vis[i][j] == true { // 이미 방분한 곳, 색칠이 안된 곳
+                if arr[i][j] == 0 || vis[i][j] == true { // 이미 방문한 곳, 색칠이 안된 곳
                     continue
                 }
                 

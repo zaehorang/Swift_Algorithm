@@ -7,21 +7,47 @@
 
 import Foundation
 
+/*
+ n <= 20
+ 전체 경우의 수를 구하면 2^n
+ 
+ 완전탐색, bfs, dfs 가능
+ */
+
 func _43165(_ numbers:[Int], _ target:Int) {
-    var cnt = 0
+    var dfsCnt = 0
     
-    func recursion(index: Int, current: Int) {
+    func dfs(index: Int, current: Int) {
         if index == numbers.count - 1 {
-            if current == target { cnt += 1 }
+            if current == target { dfsCnt += 1 }
             return
         }
         
-        recursion(index: index + 1, current: current + numbers[index + 1])
-        recursion(index: index + 1, current: current - numbers[index + 1])
-        
+        dfs(index: index + 1, current: current + numbers[index + 1])
+        dfs(index: index + 1, current: current - numbers[index + 1])
     }
     
-    recursion(index: -1, current: 0)
+    func bfs() -> Int {
+        var bfsArr = [0]
+        
+        for n in numbers {
+            var newArr = [Int]()
+            
+            for j in bfsArr {
+                newArr.append(j + n)
+                newArr.append(j - n)
+            }
+            bfsArr = newArr
+        }
+        
+        let cnt = bfsArr.reduce(0) {
+            $1 == target ? $0 + 1 : $0
+        }
+        return cnt
+    }
     
-    print(cnt)
+    dfs(index: -1, current: 0)
+    
+    print(dfsCnt)
+    print(bfs())
 }

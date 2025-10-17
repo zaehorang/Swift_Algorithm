@@ -5,4 +5,9 @@
 //  Created by zaehorang on 4/26/24.
 //
 
-Heap<Int>.runTests()
+var a = EashHeap<Int>(areSorted: <)
+a.testMin()
+
+
+
+

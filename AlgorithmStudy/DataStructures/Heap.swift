@@ -158,3 +158,92 @@ extension Heap where T == Int {
               actual == expected ? "✅" : "❌ 기대:", String(describing: expected))
     }
 }
+
+// MARK: - 간단 버전
+struct EashHeap<T: Comparable> {
+    private var heap: [T] = []
+    private var size = 0
+    
+    let areSorted: (T, T) -> Bool
+    
+    init(areSorted: @escaping (T, T) -> Bool) {
+        self.areSorted = areSorted
+    }
+    
+    func top() -> T? { size >= 1 ? heap[0] : nil }
+    
+    mutating func push(_ value: T) {
+        if heap.isEmpty { // 0번 인덱스 미리 채우기
+            heap.append(value)
+        }
+        
+        size += 1
+        heap.append(value)
+        
+        var index = size
+        
+        while index != 1 {
+            let parentIndex = index / 2
+            if areSorted(heap[parentIndex], heap[index]) {
+                break
+            }
+            
+            heap.swapAt(index, parentIndex)
+            index = parentIndex
+        }
+    }
+    
+    mutating func pop() {
+        heap[1] = heap[size]
+        heap.removeLast()
+        size -= 1
+        
+        var index = 1
+        
+        // 왼쪽 자식의 인덱스(index * 2)가 size보다 크면 index는 리프 노드
+        while index * 2 <= size {
+            let leftChildIndex = index * 2
+            let rightChildIndex = index * 2 + 1
+            
+            var targetChildIndex = leftChildIndex
+            
+            if rightChildIndex <= size,
+                areSorted(heap[rightChildIndex], heap[leftChildIndex]) {
+                targetChildIndex = rightChildIndex
+            }
+            
+            if areSorted(heap[index], heap[targetChildIndex]) {
+                break
+            }
+            heap.swapAt(index, targetChildIndex)
+            
+            index = targetChildIndex
+        }
+    }
+}
+
+extension EashHeap where T == Int {
+    mutating func testMin(){
+        push(10)
+        push(2)
+        push(5)
+        push(9)
+        
+        print(heap) // [10, 2, 9, 5, 10]
+        print("테스트 결과:", heap == [10, 2, 5, 10, 9])
+        
+        pop() // pop: 2
+        pop() // pop: 5
+        print(heap) // [10, 9, 10]
+        print("테스트 결과:", heap == [10, 9, 10])
+        
+        push(5)
+        push(15)
+        print(heap) // [10, 5, 10, 9, 15]
+        print("테스트 결과:", heap == [10, 5, 10, 9, 15])
+        
+        pop() // pop: 5
+        print(heap) // [10, 9, 10, 15]
+        print("테스트 결과:", heap == [10, 9, 10, 15])
+    }
+}

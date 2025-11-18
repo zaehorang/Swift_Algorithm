@@ -5,6 +5,4 @@
 //  Created by zaehorang on 4/26/24.
 //
 
-_2252_other()
-
-
+_2623()

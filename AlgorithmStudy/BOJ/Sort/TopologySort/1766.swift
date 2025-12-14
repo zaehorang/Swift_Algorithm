@@ -105,7 +105,7 @@ func _1766() {
         let top = heap.pop()
         ans.append(top)
         
-        /// O(log M)
+        /// O(M)
         for i in graph[top] {
             indegrees[i] -= 1
             if indegrees[i] == 0 { heap.push(i)}

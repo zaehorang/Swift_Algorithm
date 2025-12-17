@@ -75,6 +75,13 @@ struct UnionFind {
         return arr[a]
     }
     
-    /// (1)과 (2)를 같이 쓰면 "사실상" 상수 시간
-    /// -> unionByRank 함수에 find를 수정
+    /*
+     (1)과 (2)를 같이 쓰면 "사실상" 상수 시간
+     -> unionByRank 함수에 find를 수정
+     
+     But, (1)과 2() 같이 적용하게 되면 (2)로 인해 (1)의 Rank는 Tree의 Height와는 개념이 달라진다..!
+     height 개념이라면 높이가 줄어들게 되면서 rank도 수정을 해줘야 한다.
+     하지만 해당 Route가 Root 정점에 경로라고는 단정할 수 없음.
+     
+     */
 }

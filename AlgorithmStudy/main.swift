@@ -7,4 +7,4 @@
 
 import Foundation
 
-_7511()
+_1976_UnionFind()

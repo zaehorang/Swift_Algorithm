@@ -3,7 +3,7 @@
 //  AlgorithmStudy
 //
 //  Created by zaehorang on 12/24/25.
-//
+//  https://www.acmicpc.net/problem/2675
 
 import Foundation
 

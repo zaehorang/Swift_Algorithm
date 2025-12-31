@@ -10,3 +10,5 @@ import Foundation
 func _11654() {
     print(Character(readLine()!).asciiValue!)
 }
+
+

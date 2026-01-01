@@ -38,7 +38,6 @@
 				BOJ/LinkedList/1406.swift,
 				BOJ/LinkedList/5397.swift,
 				BOJ/Queue/2164.swift,
-				BOJ/Queue/18258.swift,
 				BOJ/Stack/1874.swift,
 				BOJ/Stack/2504.swift,
 				BOJ/Stack/3986.swift,

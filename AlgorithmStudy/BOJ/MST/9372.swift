@@ -7,6 +7,10 @@
 
 import Foundation
 
+/*
+ 연결 그래프에서 모든 정점을 방문하는 최소 간선의 수는 (정점 수 - 1)
+ */
+
 func _9372() {
     let T = Int(readLine()!)!
     

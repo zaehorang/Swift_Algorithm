@@ -15,7 +15,7 @@ import Foundation
 /// 주사위 굴리기
 func _14499() {
     let nmxyk = readLine()!.split(separator: " ").map { Int($0)! }
-    let (n, m, k) = (nmxyk[0], nmxyk[1], nmxyk[4])
+    let (n, m, _) = (nmxyk[0], nmxyk[1], nmxyk[4])
     
     var (x, y) = (nmxyk[2], nmxyk[3])
     

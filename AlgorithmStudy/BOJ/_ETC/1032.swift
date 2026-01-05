@@ -43,13 +43,13 @@ func _1032() {
 /// allSatisfy 메서드 사용으로 더 짧게 가능
 func _1032_other() {
     let N = Int(readLine()!)!
-    var table = (0..<N).map { _ in Array(readLine()!) }
+    let table = (0..<N).map { _ in Array(readLine()!) }
     
     var ans = ""
     
     for i in 0..<table[0].count {
-        var char = table[0][i]
-        var isSame = table.allSatisfy { $0[i] == char }
+        let char = table[0][i]
+        let isSame = table.allSatisfy { $0[i] == char }
         
         if !isSame {
             ans += "?"

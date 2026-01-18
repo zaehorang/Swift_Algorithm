@@ -1,0 +1,67 @@
+{
+  "entries" : [
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/1719.swift",
+      "platform" : "boj",
+      "problemNumber" : "1719",
+      "solved" : true,
+      "timestamp" : "2026-01-13T05:05:53Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/1753.swift",
+      "platform" : "boj",
+      "problemNumber" : "1753",
+      "solved" : true,
+      "timestamp" : "2026-01-14T02:44:50Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/11779.swift",
+      "platform" : "boj",
+      "problemNumber" : "11779",
+      "solved" : true,
+      "timestamp" : "2026-01-14T06:15:28Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/1238.swift",
+      "platform" : "boj",
+      "problemNumber" : "1238",
+      "solved" : true,
+      "timestamp" : "2026-01-15T02:17:30Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/10809.swift",
+      "platform" : "boj",
+      "problemNumber" : "10809",
+      "solved" : true,
+      "timestamp" : "2026-01-15T05:43:24Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/1504.swift",
+      "platform" : "boj",
+      "problemNumber" : "1504",
+      "solved" : true,
+      "timestamp" : "2026-01-16T02:23:05Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/1261.swift",
+      "platform" : "boj",
+      "problemNumber" : "1261",
+      "solved" : true,
+      "timestamp" : "2026-01-17T03:50:00Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/17835.swift",
+      "platform" : "boj",
+      "problemNumber" : "17835",
+      "solved" : true,
+      "timestamp" : "2026-01-18T03:21:59Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/10871.swift",
+      "platform" : "boj",
+      "problemNumber" : "10871",
+      "solved" : true,
+      "timestamp" : "2026-01-18T05:31:46Z"
+    }
+  ]
+}

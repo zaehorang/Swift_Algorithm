@@ -1,5 +1,6 @@
 {
   "author" : "zaehorang",
   "projectName" : "Swift_Algorithm",
-  "sourceFolder" : "AlgorithmStudy"
+  "sourceFolder" : "AlgorithmStudy",
+  "xcodeProjectPath" : "AlgorithmStudy.xcodeproj"
 }

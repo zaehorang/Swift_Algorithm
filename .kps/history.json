@@ -62,6 +62,41 @@
       "problemNumber" : "10871",
       "solved" : true,
       "timestamp" : "2026-01-18T05:31:46Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/20183.swift",
+      "platform" : "boj",
+      "problemNumber" : "20183",
+      "solved" : true,
+      "timestamp" : "2026-01-19T04:21:13Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/3052.swift",
+      "platform" : "boj",
+      "problemNumber" : "3052",
+      "solved" : true,
+      "timestamp" : "2026-01-19T07:08:15Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/1916.swift",
+      "platform" : "boj",
+      "problemNumber" : "1916",
+      "solved" : true,
+      "timestamp" : "2026-01-20T02:36:44Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/16916.swift",
+      "platform" : "boj",
+      "problemNumber" : "16916",
+      "solved" : true,
+      "timestamp" : "2026-01-21T05:53:58Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/16172.swift",
+      "platform" : "boj",
+      "problemNumber" : "16172",
+      "solved" : false,
+      "timestamp" : "2026-01-21T07:18:32Z"
     }
   ]
 }

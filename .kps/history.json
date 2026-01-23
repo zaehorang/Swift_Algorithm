@@ -97,6 +97,27 @@
       "problemNumber" : "16172",
       "solved" : true,
       "timestamp" : "2026-01-21T07:18:32Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/1786.swift",
+      "platform" : "boj",
+      "problemNumber" : "1786",
+      "solved" : true,
+      "timestamp" : "2026-01-22T02:58:05Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/9498.swift",
+      "platform" : "boj",
+      "problemNumber" : "9498",
+      "solved" : true,
+      "timestamp" : "2026-01-22T05:15:43Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/1893.swift",
+      "platform" : "boj",
+      "problemNumber" : "1893",
+      "solved" : true,
+      "timestamp" : "2026-01-23T01:53:17Z"
     }
   ]
 }

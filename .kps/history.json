@@ -118,6 +118,153 @@
       "problemNumber" : "1893",
       "solved" : true,
       "timestamp" : "2026-01-23T01:53:17Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/10171.swift",
+      "platform" : "boj",
+      "problemNumber" : "10171",
+      "solved" : true,
+      "timestamp" : "2026-01-25T09:31:39Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/1305.swift",
+      "platform" : "boj",
+      "problemNumber" : "1305",
+      "solved" : true,
+      "timestamp" : "2026-01-26T05:51:51Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/14425.swift",
+      "platform" : "boj",
+      "problemNumber" : "14425",
+      "solved" : true,
+      "timestamp" : "2026-01-27T02:54:50Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/14426.swift",
+      "platform" : "boj",
+      "problemNumber" : "14426",
+      "solved" : true,
+      "timestamp" : "2026-01-28T01:59:04Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/5052.swift",
+      "platform" : "boj",
+      "problemNumber" : "5052",
+      "solved" : true,
+      "timestamp" : "2026-01-29T03:15:36Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/16934.swift",
+      "platform" : "boj",
+      "problemNumber" : "16934",
+      "solved" : true,
+      "timestamp" : "2026-01-30T07:43:20Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/9202.swift",
+      "platform" : "boj",
+      "problemNumber" : "9202",
+      "solved" : true,
+      "timestamp" : "2026-01-31T04:14:47Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/16906.swift",
+      "platform" : "boj",
+      "problemNumber" : "16906",
+      "solved" : true,
+      "timestamp" : "2026-02-01T05:55:51Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/1543.swift",
+      "platform" : "boj",
+      "problemNumber" : "1543",
+      "solved" : true,
+      "timestamp" : "2026-02-02T03:04:01Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/2941.swift",
+      "platform" : "boj",
+      "problemNumber" : "2941",
+      "solved" : true,
+      "timestamp" : "2026-02-02T04:14:53Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/9996.swift",
+      "platform" : "boj",
+      "problemNumber" : "9996",
+      "solved" : true,
+      "timestamp" : "2026-02-03T02:03:07Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/3613.swift",
+      "platform" : "boj",
+      "problemNumber" : "3613",
+      "solved" : true,
+      "timestamp" : "2026-02-03T03:10:24Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/2870.swift",
+      "platform" : "boj",
+      "problemNumber" : "2870",
+      "solved" : true,
+      "timestamp" : "2026-02-04T03:23:46Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/1969.swift",
+      "platform" : "boj",
+      "problemNumber" : "1969",
+      "solved" : true,
+      "timestamp" : "2026-02-05T03:06:17Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/2999.swift",
+      "platform" : "boj",
+      "problemNumber" : "2999",
+      "solved" : true,
+      "timestamp" : "2026-02-06T05:13:43Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/9536.swift",
+      "platform" : "boj",
+      "problemNumber" : "9536",
+      "solved" : true,
+      "timestamp" : "2026-02-06T05:43:13Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/15312.swift",
+      "platform" : "boj",
+      "problemNumber" : "15312",
+      "solved" : true,
+      "timestamp" : "2026-02-07T07:14:17Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/9251.swift",
+      "platform" : "boj",
+      "problemNumber" : "9251",
+      "solved" : true,
+      "timestamp" : "2026-02-08T07:49:05Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/9084.swift",
+      "platform" : "boj",
+      "problemNumber" : "9084",
+      "solved" : true,
+      "timestamp" : "2026-02-09T04:07:20Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/1915.swift",
+      "platform" : "boj",
+      "problemNumber" : "1915",
+      "solved" : true,
+      "timestamp" : "2026-02-10T13:18:10Z"
+    },
+    {
+      "filePath" : "AlgorithmStudy\/BOJ\/1002.swift",
+      "platform" : "boj",
+      "problemNumber" : "1002",
+      "solved" : true,
+      "timestamp" : "2026-02-11T09:23:27Z"
     }
   ]
 }

@@ -27,10 +27,10 @@ func _1002() {
         let sum2 = sum * sum
         let diff2 = diff * diff
 
-        if d2 > sum2 { return 0 }
-        if d2 < diff2 { return 0 }
-        if d2 == sum2 || d2 == diff2 { return 1 }
-        return 2
+        if d2 > sum2 { return 0 } // 외부
+        if d2 < diff2 { return 0 } // 내부
+        if d2 == sum2 || d2 == diff2 { return 1 } // 내접/ 외접
+        return 2 // 두 점에서 만남
     }
     
     for _ in 0..<n {
@@ -44,4 +44,3 @@ func _1002() {
 
     print(out)
 }
-

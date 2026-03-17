@@ -38,3 +38,30 @@ func _9012() {
     }
     print(ans)
 }
+
+func _9012_1() {
+    // Your solution here
+    let n = Int(readLine()!)!
+        var result: [String] = []
+
+        for _ in 0..<n {
+            var balance = 0
+            var isVPS = true
+
+            for char in readLine()! {
+                if char == "(" {
+                    balance += 1
+                } else {
+                    balance -= 1
+                    if balance < 0 {
+                        isVPS = false
+                        break
+                    }
+                }
+            }
+
+            result.append(isVPS && balance == 0 ? "YES" : "NO")
+        }
+
+        print(result.joined(separator: "\n"))
+}

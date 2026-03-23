@@ -85,5 +85,3 @@ func _1083_1() {
     }
     print(arr.map { String($0) }.joined(separator: " "))
 }
-
-

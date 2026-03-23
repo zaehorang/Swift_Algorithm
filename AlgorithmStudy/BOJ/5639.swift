@@ -95,7 +95,10 @@ func _5639_() {
     
 }
 
-
+/*
+ 전위 순회는 부모를 먼저 주고, BST는 자식이 들어갈 수 있는 범위를 정해준다.
+ 그래서 범위만 잘 관리하면, 트리를 안 만들어도 후위 순회를 만들 수 있다.
+ */
 func _5639_1() {
     var preorder: [Int] = []
     
@@ -104,7 +107,7 @@ func _5639_1() {
     }
     
     var index = 0
-    var result = String()
+    var result = ""
     
     func postorder(_ lower: Int, _ upper: Int) {
         if index >= preorder.count { return }
@@ -127,5 +130,5 @@ func _5639_1() {
     }
     
     postorder(Int.min, Int.max)
-    print(result, terminator: "")
+    print(result)
 }
